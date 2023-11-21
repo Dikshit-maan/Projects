@@ -33,7 +33,7 @@ header{
 }
 .header-menu ul li{
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 10px;
 }
 .header-menu ul li a{
     cursor: pointer;
