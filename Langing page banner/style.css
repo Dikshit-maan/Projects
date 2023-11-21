@@ -11,7 +11,7 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    background-position: center;
+   
 }
 .top-header{
     display: flex;
@@ -33,7 +33,7 @@ header{
 }
 .header-menu ul li{
     display: inline-block;
-    padding: 10px 40px;
+    padding: 10px 30px;
 }
 .header-menu ul li a{
     cursor: pointer;
@@ -45,3 +45,71 @@ header{
     border-bottom: 1px solid rgb(255, 255, 255);
     
 }
+
+.header-bottom{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.bottom-text h1{
+    font-size: 4rem;
+    letter-spacing: 4px;
+}
+
+.bottom-text p{
+    width: 80%;
+    font-size: 1rem;
+    letter-spacing: 2;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.bottom-button{
+    word-spacing: 40px;
+    
+}
+.bottom-button button{
+    font-weight: bold;
+    padding: 8px 20px;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.bottom-button button:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+}
+
+@media only screen and (max-width: 600px) {
+    .top-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+        margin: auto;
+        padding: 20px 30px;
+    }
+    .header-logo{
+       left: 10%;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .header-menu ul li{
+        display: flex;
+        float: left;
+        stroke-width: 20px;
+        padding: 10px 5px;
+
+    }
+    .header-bottom{
+        position: relative;
+        top: 10%;
+       left: 5%;
+       width: 100%;
+    }
+    body {
+        overflow: hidden; /* Hide scrollbars */
+      }
+  }
