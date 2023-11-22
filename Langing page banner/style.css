@@ -42,7 +42,7 @@ header{
 }
 .header-menu ul li a:hover{
     color: red;
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
     
 }
 
