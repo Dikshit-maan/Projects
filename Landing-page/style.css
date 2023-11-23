@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 300xp;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+}
+.nav-part-2{
+    display: flex;
+    gap: 4vw;
+}
+
+.nav h2{
+    font-size: 2vw;
+}
