@@ -41,9 +41,21 @@
     height: calc(100% - 100px);
     width: 100%;
 }
-.content.left{
-    
+.left{
+ height: 100%;
+ width: 50%;
+ background-color: aquamarine;
 }
+.right{
+ height: 100%;
+ width: 50%;
+ background-color: rgb(89, 104, 218);
+}
+
+
+
+
+
 
 @media (max-width:600px) {
     .nav{
