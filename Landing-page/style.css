@@ -41,10 +41,10 @@
 
 .content{
     background-color: palegoldenrod;
-    height: calc(100% - 99px) !important;
+    height: calc(100% - 100px);
     width: 100%;
     display: flex;
-    flex-direction: column;
+    
 }
 .left{
  height: 100%;
