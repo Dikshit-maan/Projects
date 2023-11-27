@@ -40,21 +40,46 @@
 }
 
 .content{
-    background-color: palegoldenrod;
     height: calc(100vh - 100px);
     width: 100%;
     display: flex;
+    position: relative;
     
 }
 .left{
  height: 100%;
- width: 50%;
- background-color: aquamarine;
+ width: 60%;
+
+ padding: 5vw 3vw;
 }
+.left h1{
+    font-size: 3vw;
+    line-height: 1.3;
+}
+.left h1 span{
+    color: lightseagreen;
+    text-decoration: underline;
+}
+.left p{
+    font-size: 3vh;
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 3vw 0;
+    width: 80%;
+}
+ button{
+    border: none;
+    border-radius: 5px;
+    padding: 1.3vw 2.3vw;
+    color: #fff;
+    background-color: lightseagreen;
+    margin: 0 2vw;
+ }
+
 .right{
  height: 100%;
- width: 50%;
- background-color: rgb(89, 104, 218);
+ width: 40%;
+ 
 }
 
 
