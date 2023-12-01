@@ -80,7 +80,9 @@
     background-image: url('https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2923.jpg?w=740&t=st=1701444137~exp=1701444737~hmac=5ae4f5ff3aea82b7677c79544828446813b76d85e9ae5c4c70091ba7704bd3ee');
  height: 100%;
  width: 40%;
- 
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
 }
 
 
