@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+    color: #fff;
+  }
+  
+  html, body {
+    height: 100%;
+  
+    width: 100%;
+  }
+  #nav{
+    height: 145px;
+    width: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 150px;
+    gap: 50px;
+  }
+  #nav img{
+
+  }
+
+  #nav h4{
+    font-weight: 400;
+  }
