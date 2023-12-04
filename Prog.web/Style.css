@@ -21,6 +21,14 @@
     position: fixed;
     z-index: 99;
   }
+  #cursor-blur{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    background-color: #0B7189;
+    position: fixed;
+    z-index: 9;
+  }
   #nav{
       height: 100px;
       width: 100%;
