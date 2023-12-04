@@ -14,7 +14,7 @@
     width: 100%;
   }
   #nav{
-      height: 145px;
+      height: 120px;
       width: 100%;
       background-color: red;
       display: flex;
@@ -23,10 +23,19 @@
       justify-content: flex-start;
       gap: 45px;
       font-weight: 500;
+      position: fixed;
+      z-index: 99;
   }
   #nav img{
     height: 65px;
+    border-radius: 35px;
   }
   #nav h4{
       font-weight: 500;
+  }
+  video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
   }
