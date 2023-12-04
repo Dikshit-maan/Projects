@@ -2,29 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "montserrat";
+    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
   }
   
-  html, body {
+  html,
+  body {
     height: 100%;
   
     width: 100%;
   }
   #nav{
-    height: 145px;
-    width: 100%;
-    background-color: rebeccapurple;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0 150px;
-    gap: 50px;
+      height: 145px;
+      width: 100%;
+      background-color: red;
+      display: flex;
+      align-items: center;
+      padding: 0 150px;
+      justify-content: flex-start;
+      gap: 45px;
+      font-weight: 500;
   }
   #nav img{
-
+    height: 65px;
   }
-
   #nav h4{
-    font-weight: 400;
+      font-weight: 500;
   }
