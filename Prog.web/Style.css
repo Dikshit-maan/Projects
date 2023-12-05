@@ -13,10 +13,13 @@
   
     width: 100%;
   }
+
+
+
   #cursor{
     height: 25px;
     width: 25px;
-    border-radius: 30px;
+    border-radius: 50%;
     background-color: #0B7189;
     position: fixed;
     z-index: 99;
@@ -24,7 +27,7 @@
   #cursor-blur{
     height: 300px;
     width: 300px;
-    border-radius: 300px;
+    border-radius: 50%;
     background-color: #0B7189;
     position: fixed;
     z-index: 9;
