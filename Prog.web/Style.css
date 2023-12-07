@@ -28,9 +28,10 @@
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background-color: #0B7189;
+    background-color: #0b728976;
     position: fixed;
     z-index: 9;
+    filter: blur(30px);
   }
   #nav{
       height: 100px;
