@@ -48,6 +48,7 @@ body {
   z-index: 99;
 }
 
+
 #nav img {
   height: 65px;
   border-radius: 35px;
@@ -300,20 +301,58 @@ padding: 0 30px;
   font-weight: 400;
 }
 
+
+
+
 #p3-second-div{
-  height: 60vh;
-  width: 100%;
-  display: flex;
+  display: block;
+  padding: 40px;
+  background-color: blue;
   
-  justify-content: center;
-  align-items: center;
 }
-.box{
+#first-row{
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 50px;
+  
+}
+#second-row{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.box{
+  height:300px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
 }
 .box img{
-  height: 300px;
+  height: 200px;
   width: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.box h3{
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+}
+.box p{
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
 }
