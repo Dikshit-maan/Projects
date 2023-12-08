@@ -3,18 +3,13 @@ var crsr = document.querySelector("#cursor")
 var blur = document.querySelector("#cursor-blur")
 
 document.addEventListener("mousemove",function(dets){
-    crsr.style.left = dets.x - 10 + "px"
-    crsr.style.top = dets.y - 10 + "px"
+    crsr.style.left = dets.x + "px"
+    crsr.style.top = dets.y + "px"
     blur.style.left = dets.x - 150 + "px"
     blur.style.top = dets.y - 150 + "px"
 })
 
 
-// document.addEventListener("mousemove",function(dets){
-    
-//     crsr.Styl.left = dets.x + "px"
-//     crsr.Styl.top = dets.y + "px"
-// })
 
 
 
@@ -31,10 +26,10 @@ gsap.to("#nav",{
     }
 })
 
-gsap.to("#main",{
+gsap.to("#page2",{
     backgroundColor:"#000",
     scrollTrigger:{
-        Trigger:"#main",
+        Trigger:"#page2",
         scroller:"body",
         start:"top -45%",
         end:"top -100%",
