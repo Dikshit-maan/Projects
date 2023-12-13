@@ -36,6 +36,17 @@ cursor.forEach(function(back){
 
 
 })
+var curser = document.querySelectorAll("#page5")
+curser.forEach(function(backg){
+    backg.addEventListener("mouseenter", function(){
+        crsr.style.backgroundColor = "#000"
+     })
+    backg.addEventListener("mouseleave", function(){
+        crsr.style.backgroundColor = "#fff"
+    })
+
+
+})
 
 var cur = document.querySelectorAll("#page3")
 cur.forEach(function(bac){
@@ -85,7 +96,7 @@ gsap.from("#about-us img,#about-us-in",{
         scroller:"body",
         
         start:"top 70%",
-        end:"top 30%",
+        end:"top 65%",
         scrub:3
     }
 })
@@ -98,7 +109,7 @@ gsap.from(".card",{
         scroller:"body",
         
         start:"top 70%",
-        end:"top 55%",
+        end:"top 65%",
         scrub:3
     }
 })
