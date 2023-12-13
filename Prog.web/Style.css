@@ -19,7 +19,7 @@ body {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background-color: #010f13;
+  background-color: #ffffff;
   position: fixed;
   z-index: 99;
 }
@@ -56,6 +56,11 @@ body {
 
 #nav h4 {
   font-weight: 500;
+  cursor: pointer;
+  
+}
+#nav h4 a{
+  text-decoration: none;
 }
 
 video {
@@ -171,7 +176,7 @@ video {
   }
 }
 
-#aboutus {
+#about-us {
   height: 40vh;
   width: 100%;
   /* background-color: red; */
@@ -183,26 +188,26 @@ video {
   z-index: 10;
 }
 
-#aboutus img {
+#about-us img {
   height: 250px;
   width: 350px;
   border-radius: 10px;
   object-fit: cover;
 }
 
-#aboutus-in {
+#about-us-in {
   width: 40%;
   text-align: center;
 
 }
 
-#aboutus-in h3 {
+#about-us-in h3 {
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-#aboutus-in p {
+#about-us-in p {
   font-size: 20px;
 padding: 0 30px;
   text-align: center;
@@ -230,6 +235,7 @@ padding: 0 30px;
   object-fit: cover;
   overflow: hidden;
   transition: all ease 0.6s;
+  cursor: pointer;
 }
 
 #card1 {
@@ -281,7 +287,7 @@ padding: 0 30px;
   z-index: 10 ;
 }
 #p3-first-div{
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   height: 50vh;
   width: 100%;
   display: flex;
@@ -340,7 +346,7 @@ padding: 0 30px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgb(0,0,0,0.2) ;
   margin: 20px;
-  cursor: pointer;
+  
   z-index: 10;
 
 
@@ -384,6 +390,7 @@ padding: 0 30px;
   font-weight: 200;
   border-radius: 4px;
   margin-bottom: 20px;
+  cursor: pointer;
  
 }
 
@@ -395,6 +402,7 @@ padding: 0 30px;
   align-items: center;
   justify-content: center;
   z-index: 10;
+  position: relative;
 }
 #page4 p{
   font-size: 40px;
@@ -403,16 +411,7 @@ padding: 0 30px;
   text-align: center;
   line-height: 50px;
   position: relative;
-}
-
-#page4 img{
-  position: absolute;
-  width: 60px;
+  
   
 }
 
-
-#page4 .q2{
-  top: 15px;
-  left: 20%;
-}
