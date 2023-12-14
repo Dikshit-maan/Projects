@@ -37,7 +37,7 @@ cursor.forEach(function(back){
 
 })
 
-var cur = document.querySelectorAll("#page3")
+var cur = document.querySelectorAll("#page3 ")
 cur.forEach(function(bac){
     bac.addEventListener("mouseenter", function(){
         crsr.style.backgroundColor = "#000"
