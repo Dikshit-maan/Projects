@@ -1,7 +1,7 @@
 @media(max-width: 600px) {
    #main{
     height: 100%;
-    width: 120vw;
+    width: 100%;
     position: relative;
    }
     #nav {
