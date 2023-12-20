@@ -1,15 +1,16 @@
 @media(max-width: 600px) {
-    #main {
-        width: 100%;
-    }
-
+   #main{
+    height: 100%;
+    width: 120vw;
+    position: relative;
+   }
     #nav {
         height: 100px;
-        width: 100vw;
+        width: 100%;
         /* background-color: #000; */
         display: flex;
         align-items: center;
-        padding: 15px 0 0 40px;
+        padding: 15px 40px 0 40px;
         justify-content: flex-start;
         gap: 45px;
 
@@ -35,9 +36,12 @@
         visibility: hidden;
     }
 
-    #nav h4 a {
-        text-decoration: none;
+    video{
+        height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
     }
-
 
 }
